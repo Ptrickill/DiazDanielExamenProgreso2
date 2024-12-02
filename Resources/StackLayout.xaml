@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiazDanielExamenProgreso2.Resources.StackLayout"
+             Title="StackLayout">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30">
+            <Label 
+                Text="Recarga Telefonica"
+                FronSize="28"
+                FrontAttrbutes="Bold"
+                TextColor="Purple"
+                HorizontalOptions="Center"/>
+            <Label
+                Text="Ingrese Numero de Telefono"
+                FrontSize="18"
+                TextColor="Aquamarine"/>
+            <Entry
+                x:Name="JTex_NumeroDDiaz"
+                Placeholder="Numero Telefonico"
+                Keyboard="Numeric"
+                FrontSize="16"
+                TextColor="BlueViolet"
+                BackgroundColor="AliceBlue"
+                HorizontalOptions="FillAndExpand"/>
+            <Label
+                Text="Ingrese Nombre:"
+                FrontSize="18"
+                TextColor="Black"/>
+            <Entry
+                x:Name="JTex_Nombre"
+                Placeholder="Nombre del Usuario"
+                FrontSize="16"
+                TextColor="Black"
+                Background="AliceBlue"
+                HorizontalOptions="FillAndExpand"/>
+            <Label
+                Text="JLbl_ResumenDDiaz"
+                FrontSize="16"
+                TextColor="Brown"
+                HorizontalOptions="Center"/>
+            <Button
+                x:Name="JBtn_RecargaDDiaz"
+                Text="Recargar"
+                FrontSize="18"
+                Background="Purple"
+                TextColor="White"
+                CornerRadius="10"
+                HorizontalOptions="FillAndExpand"
+                Clicked="JBtn_Recargar_Click"/>
+            
+        </VerticalStackLayout>  
+    </ScrollView>
+</ContentPage>
