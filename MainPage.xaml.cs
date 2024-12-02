@@ -26,7 +26,7 @@ namespace DiazDanielExamenProgreso2
             string filePath = Path.Combine(folerPath, fileName);
             string recargaInfo = "Informacion de la recarga: $100.00\n Fecha: " + DateTime.Now;
 
-            await File.WriteAllLinesAsync(filePath, recargaInfo);
+            await File.WriteAllLinesAsync(filePath, new[] { recargaInfo });
             await DisplayAlert("Exito", "La infomrcion se ha guardado correctamente en " + filePath, "Ok");
         }
     }

@@ -22,7 +22,7 @@ public partial class StackLayout : ContentPage
 
 		}
 
-		if (numero.Length != 10 || !long.TryParse(numero, out_))
+		if (numero.Length != 10 || !long.TryParse(numero, out long _))
 		{
 			await DisplayAlert("Error", "El numero de telefono debe tener 10 digitos validos", "Ok");
 			return;
