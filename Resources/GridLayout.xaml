@@ -4,7 +4,7 @@
              x:Class="DiazDanielExamenProgreso2.Resources.GridLayout"
              Background="White"
              Title="Datos Personales">
-    <Grid RowDefinitions="," ColumnDefinitions=",">
+    <Grid>
         <Label 
             Text="Daniel"
             Grid.Row="0"

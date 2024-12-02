@@ -8,43 +8,43 @@
         <VerticalStackLayout Spacing="20" Padding="30">
             <Label 
                 Text="Recarga Telefonica"
-                FrontSize="28"
-                FrontAttrbutes="Bold"
+                FontSize="28"
+                FontAttributes="Bold"
                 TextColor="Purple"
                 HorizontalOptions="Center"/>
             <Label
                 Text="Ingrese Numero de Telefono"
-                FrontSize="18"
+                FontSize="18"
                 TextColor="Aquamarine"/>
             <Entry
                 x:Name="JTex_NumeroDDiaz"
                 Placeholder="Numero Telefonico"
                 Keyboard="Numeric"
-                FrontSize="16"
+                FontSize="16"
                 TextColor="BlueViolet"
                 BackgroundColor="AliceBlue"
                 HorizontalOptions="FillAndExpand"/>
             <Label
                 Text="Ingrese Nombre:"
-                FrontSize="18"
+                FontSize="18"
                 TextColor="Black"/>
             <Entry
                 x:Name="JTex_Nombre"
                 Placeholder="Nombre del Usuario"
-                FrontSize="16"
+                FontSize="16"
                 TextColor="Black"
                 Background="AliceBlue"
                 HorizontalOptions="FillAndExpand"/>
             <Label
                 x:Name="JLbl_ResumenDDiaz"
                 Text="Seleccione una recarga para ver el resumen"
-                FrontSize="16"
+                FontSize="16"
                 TextColor="Brown"
                 HorizontalOptions="Center"/>
             <Button
                 x:Name="JBtn_RecargaDDiaz"
                 Text="Recargar"
-                FrontSize="18"
+                FontSize="18"
                 Background="Purple"
                 TextColor="White"
                 CornerRadius="10"
