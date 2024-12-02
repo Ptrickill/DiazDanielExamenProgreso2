@@ -1,3 +1,6 @@
+using System.IO;
+using Microsoft.Maui.Controls;
+
 namespace DiazDanielExamenProgreso2.Resources;
 
 public partial class StackLayout : ContentPage
@@ -32,7 +35,7 @@ public partial class StackLayout : ContentPage
 		await DisplayAlert("Recarga Exitosa", "La recarga se realizo correctaente.", "Ok");
 		JLbl_ResumenDDiaz.Text = $"La ultima recarga realizada fue:\nNombre:{nombre}\nNumero:{numero}";
 		JTex_NumeroDDiaz.Text= string.Empty;
-		JTex_Nombre= string.Empty;
+		JTex_Nombre.Text= string.Empty;
 
 
 	}
