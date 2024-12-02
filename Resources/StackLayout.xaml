@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DiazDanielExamenProgreso2.Resources.StackLayout"
-             Title="StackLayout">
+             Background="White"
+             Title="Recarga Telefonica">
     <ScrollView>
         <VerticalStackLayout Spacing="20" Padding="30">
             <Label 
                 Text="Recarga Telefonica"
-                FronSize="28"
+                FrontSize="28"
                 FrontAttrbutes="Bold"
                 TextColor="Purple"
                 HorizontalOptions="Center"/>
@@ -35,7 +36,8 @@
                 Background="AliceBlue"
                 HorizontalOptions="FillAndExpand"/>
             <Label
-                Text="JLbl_ResumenDDiaz"
+                x:Name="JLbl_ResumenDDiaz"
+                Text="Seleccione una recarga para ver el resumen"
                 FrontSize="16"
                 TextColor="Brown"
                 HorizontalOptions="Center"/>
